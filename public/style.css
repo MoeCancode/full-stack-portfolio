@@ -51,7 +51,7 @@ body {
   .card-header h3 {
       text-align: center;
       margin-top: 2vw;
-      text-shadow: #ab5fc7 5px 15px 10px;
+      text-shadow: #ab5fc7 5px 15px 15px;
   }
 
   .blockquote p {
@@ -85,17 +85,18 @@ body {
 
 .item a h4 {
     color: rgb(168, 168, 168);
-    background-color: #210a38;
+    background-color: black;
 }
 
 .item:hover h4 {
     color: white;
-    text-shadow: #a960ba 0 5px 15px;
+    text-shadow: #ab5fc7 5px 15px 15px;
 }
 
 .item:hover h4 i {
     color: white;
-    text-shadow: #a960ba 0 5px 15px;
+    text-shadow: #ab5fc7 5px 15px 15px;
+    
 }
 
 .item:hover a img {
@@ -117,7 +118,7 @@ body {
     margin-bottom: 25px;
     margin-top: 15px;
     color: white;
-    text-shadow: #a960ba 0 5px 15px;
+    text-shadow: #ab5fc7 5px 15px 15px;
 }
 
 .heading {
