@@ -1,4 +1,41 @@
 body {
-    color: blueviolet;
-    background-color: aqua;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Cairo', sans-serif;
 }
+
+.nav-link {
+    color: white;
+}
+
+#homeButton {
+    color: white;
+}
+
+#smallPic {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 5px solid #30124E;
+    max-width: 80%;
+}
+
+.bio {
+    text-align: center;
+    text-shadow: #ab5fc7 5px 15px 15px;
+}
+
+.bio p {
+    letter-spacing: 0.8rem;
+    font-size: small;
+}
+
+.jumbotron {
+    background-image: url("./assets/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    margin-top: 20px;
+  }
