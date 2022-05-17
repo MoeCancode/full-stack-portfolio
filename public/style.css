@@ -100,7 +100,7 @@ body {
 }
 
 .item:hover a img {
-    border: 3px solid #30124E;
+    border: 3px solid #0d0119;
     filter: brightness(100%);
     /* box-shadow: rgb(84, 83, 83) 0 5px 15px; */
 }
@@ -122,5 +122,61 @@ body {
 }
 
 .heading {
+    text-align: center;
+}
+
+#contactSection {
+    margin: 25px;
+    margin-top: 45px;
+    border: #30124E 1px solid;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* box-shadow: 5px 9px rgb(56, 56, 56); */
+}
+
+.linkStyle a {
+    color: rgb(168, 168, 168);
+    margin-top: 55px;
+    text-decoration: none;
+}
+
+.linkStyle a:hover {
+    color: white;
+}
+
+#contactHeading {
+    color: white;
+    text-shadow: #ab5fc7 5px 15px 15px;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+
+#git:hover {
+    box-shadow: 0 5px 15px rgba(255, 138, 234, 0.4);
+}
+
+#linked:hover {
+    box-shadow: 0 5px 15px rgba(112, 126, 236, 0.4);
+}
+
+#fiverr:hover {
+    box-shadow: 0 5px 15px rgba(112, 225, 136, 0.4);
+}
+
+#emailText {
+    margin-top: 75px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#emailText:hover {
+    color: white;
+    text-shadow: #ab5fc7 5px 15px 15px;
+}
+
+.linkicons {
     text-align: center;
 }

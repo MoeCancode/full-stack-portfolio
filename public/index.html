@@ -23,18 +23,27 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/30f3a925af.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./style.css" />
 
     <title>Document</title>
-
-
   </head>
   <body>
     <!-- Navigation bar -->
@@ -71,7 +80,7 @@
       </div>
     </nav>
 
-    <div class="bio">
+    <div class="bio" id="heroSection">
       <h2 class="animate__animated animate__flash">MOHAMMAD RAZVI</h2>
       <p class="lead">FULL-STACK WEB DEVELOPER</p>
     </div>
@@ -100,48 +109,122 @@
       </div>
     </div>
 
-
     <!-- Work section -->
     <div class="col mb-5 flex-column d-flex heading">
       <h3 id="projectHeading">PROJECTS I HAVE WORKED ON</h3>
-      <p id="projectDescription"> * Click image to visit Deployed Link. Click Project Title to visit Github Repository *</p>
-  </div>
-
+      <p id="projectDescription">
+        * Click image to visit Deployed Link. Click Project Title to visit
+        Github Repository *
+      </p>
+    </div>
 
     <div id="workSection">
-          <div class="owl-carousel owl-theme">
-      
-              <div class="item">
-                  <a href="https://moecancode.github.io/date-night-and-chill/" target="_blank"><img src="./assets/dncsmol.png" alt="Image not available" class="carouselImages"></a>
-                  <a href="https://github.com/MoeCancode/date-night-and-chill" target="_blank"><h4><i class="fa-brands fa-github fa-sm"></i> Date Night & Chill</h4></a>
-              </div>
-              <div class="item">
-                  <a href="https://moecancode.github.io/weather-dashboard/" target="_blank"><img src="./assets/wd.png" alt="Image not available" class="carouselImages"></a>
-                  <a href="https://github.com/MoeCancode/weather-dashboard" target="_blank"><h4><i class="fa-brands fa-github fa-sm"></i> Weather Dashboard</h4></a>
-              </div>
-              <div class="item">
-                  <a href="https://moecancode.github.io/Day-Planner/" target="_blank"><img src="./assets/dayp.png" alt="Image not available" class="carouselImages"></a>
-                  <a href="https://github.com/MoeCancode/Day-Planner" target="_blank"><h4><i class="fa-brands fa-github fa-sm"></i> Day Planner</h4></a>
-              </div>
-              <div class="item">
-                  <a href="https://moecancode.github.io/Quiz-me/" target="_blank"><img src="./assets/quizme.png" alt="Image not available" class="carouselImages"></a>
-                  <a href="https://github.com/MoeCancode/Quiz-me" target="_blank"><h4><i class="fa-brands fa-github fa-sm"></i> Quiz Me</h4></a>
-              </div>
-              <div class="item">
-                <a href="https://artketplace.herokuapp.com/" target="_blank"><img src="./assets/akp.png" alt="Image not available" class="carouselImages"></a>
-                <a href="https://github.com/MoeCancode/artketplace" target="_blank"><h4><i class="fa-brands fa-github fa-sm"></i> ARTketplace</h4></a>
-            </div>
-              
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <a
+            href="https://moecancode.github.io/date-night-and-chill/"
+            target="_blank"
+            ><img
+              src="./assets/dncsmol.png"
+              alt="Image not available"
+              class="carouselImages"
+          /></a>
+          <a
+            href="https://github.com/MoeCancode/date-night-and-chill"
+            target="_blank"
+            ><h4>
+              <i class="fa-brands fa-github fa-sm"></i> Date Night & Chill
+            </h4></a
+          >
+        </div>
+        <div class="item">
+          <a
+            href="https://moecancode.github.io/weather-dashboard/"
+            target="_blank"
+            ><img
+              src="./assets/wd.png"
+              alt="Image not available"
+              class="carouselImages"
+          /></a>
+          <a
+            href="https://github.com/MoeCancode/weather-dashboard"
+            target="_blank"
+            ><h4>
+              <i class="fa-brands fa-github fa-sm"></i> Weather Dashboard
+            </h4></a
+          >
+        </div>
+        <div class="item">
+          <a href="https://moecancode.github.io/Day-Planner/" target="_blank"
+            ><img
+              src="./assets/dayp.png"
+              alt="Image not available"
+              class="carouselImages"
+          /></a>
+          <a href="https://github.com/MoeCancode/Day-Planner" target="_blank"
+            ><h4><i class="fa-brands fa-github fa-sm"></i> Day Planner</h4></a
+          >
+        </div>
+        <div class="item">
+          <a href="https://moecancode.github.io/Quiz-me/" target="_blank"
+            ><img
+              src="./assets/quizme.png"
+              alt="Image not available"
+              class="carouselImages"
+          /></a>
+          <a href="https://github.com/MoeCancode/Quiz-me" target="_blank"
+            ><h4><i class="fa-brands fa-github fa-sm"></i> Quiz Me</h4></a
+          >
+        </div>
+        <div class="item">
+          <a href="https://artketplace.herokuapp.com/" target="_blank"
+            ><img
+              src="./assets/akp.png"
+              alt="Image not available"
+              class="carouselImages"
+          /></a>
+          <a href="https://github.com/MoeCancode/artketplace" target="_blank"
+            ><h4><i class="fa-brands fa-github fa-sm"></i> ARTketplace</h4></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact section -->
+    <div id="contactSection">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3 id="contactHeading">CONTACT ME</h3>
           </div>
         </div>
-
+        <div class="row linkicons">
+          <div class="col linkStyle">
+            <a href="https://github.com/MoeCancode " target="_blank" id="git"><i class="fa-brands fa-github fa-2xl"></i><span> Github</span></a>
+            
+          </div>
+          <div class="col linkStyle">
+            <a href="https://www.linkedin.com/in/mohammad-abuzar-razvi-321ab2231/" target="_blank" id="linked"><i class="fa-brands fa-linkedin fa-2xl"></i><span> LinkedIn</span></a>
+          </div>
+          <div class="col linkStyle">
+            <a href="https://www.fiverr.com/abuzarrazvi?up_rollout=true" target="_blank" id="fiverr"><i class="fa-solid fa-dice-five fa-2xl"></i><span> Fiverr</span></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h5 id="emailText">Or send me an email at: Abuzarflw@gmail.com</h5>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="./script.js"></script>
   </body>
-
-  
 </html>
