@@ -19,13 +19,22 @@
       rel="stylesheet"
     />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css" />
 
     <title>Document</title>
+
+
   </head>
   <body>
     <!-- Navigation bar -->
@@ -73,18 +82,62 @@
     </div>
 
     <!-- About section -->
-    <div class="card">
+    <div class="card animate__animated animate__flash" id="aboutSection">
       <div class="card-header">
         <h3>ABOUT</h3>
       </div>
       <div class="card-body">
         <blockquote class="blockquote mb-0">
-          <p>I am a Full-stack Web Developer who is passionate about tech and coding. Full-time freelancing is how I earn my bread and provide value to the world. I have worked on a number of projects over the last few months and my focus is always on making functional apps that also look good. If you'd like to discuss your project with me or get to know me better, I am only one call/message/email away!</p>
+          <p>
+            I am a Full-stack Web Developer who is passionate about tech and
+            coding. Full-time freelancing is how I earn my bread and provide
+            value to the world. I have worked on a number of projects over the
+            last few months and my focus is always on making functional apps
+            that also look good. If you'd like to discuss your project with me
+            or get to know me better, I am only one call/message/email away!
+          </p>
         </blockquote>
       </div>
     </div>
 
+
+    <!-- Work section -->
+    <div class="col mb-5 flex-column d-flex heading">
+      <h3 id="projectHeading">PROJECTS I HAVE WORKED ON</h3>
+      <p id="projectDescription"> * Click image to visit Deployed Link. Click Project Title to visit Github Repository *</p>
+  </div>
+
+
+    <div id="workSection">
+          <div class="owl-carousel owl-theme">
+      
+              <div class="item">
+                  <a href="https://moecancode.github.io/date-night-and-chill/" target="_blank"><img src="./assets/dncsmol.png" alt="Image not available" class="carouselImages"></a>
+                  <a href="https://github.com/MoeCancode/date-night-and-chill" target="_blank"><h4><i class="fa-brands fa-github fa-sm"></i> Date Night & Chill</h4></a>
+              </div>
+              <div class="item">
+                  <a href="https://moecancode.github.io/weather-dashboard/" target="_blank"><img src="./assets/wd.png" alt="Image not available" class="carouselImages"></a>
+                  <a href="https://github.com/MoeCancode/weather-dashboard" target="_blank"><h4><i class="fa-brands fa-github fa-sm"></i> Weather Dashboard</h4></a>
+              </div>
+              <div class="item">
+                  <a href="https://moecancode.github.io/Day-Planner/" target="_blank"><img src="./assets/dayp.png" alt="Image not available" class="carouselImages"></a>
+                  <a href="https://github.com/MoeCancode/Day-Planner" target="_blank"><h4><i class="fa-brands fa-github fa-sm"></i> Day Planner</h4></a>
+              </div>
+              <div class="item">
+                  <a href="https://moecancode.github.io/Quiz-me/" target="_blank"><img src="./assets/quizme.png" alt="Image not available" class="carouselImages"></a>
+                  <a href="https://github.com/MoeCancode/Quiz-me" target="_blank"><h4><i class="fa-brands fa-github fa-sm"></i> Quiz Me</h4></a>
+              </div>
+              
+          </div>
+        </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
   </body>
 
-  <script src="./script.js"></script>
+  
 </html>
