@@ -6,6 +6,7 @@ body {
 
 .nav-link {
     color: white;
+    text-shadow: #ab5fc7 5px 15px 15px;
 }
 
 #homeButton {
@@ -29,13 +30,26 @@ body {
 .bio p {
     letter-spacing: 0.8rem;
     font-size: small;
+    text-shadow: #ab5fc7 5px 15px 10px;
 }
 
 .jumbotron {
     background-image: url("./assets/cover.jpg");
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 685px;
     text-align: center;
     margin-top: 20px;
+  }
+
+  .card {
+      background-color: black;
+      border-color: #30124E;
+      margin: 10vw;
+  }
+
+  .card-header h3 {
+      text-align: center;
+      margin-top: 2vw;
+      text-shadow: #ab5fc7 5px 15px 10px;
   }
